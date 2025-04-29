@@ -18,7 +18,7 @@ public class ProvaStringe {
         String pippo = "Pippo";
         String topolino = "Topolino";
         System.out.println(pippo.equals(topolino)); //FALSE CONTROLLA SE E UGUALE ALLA STRINGA TOPOLINO
-        System.out.println(pippo.contains("pirla")); //TRUE CONTROLLA SE HA LA LETTERA SPECIFICATA
+        System.out.println(pippo.contains("p")); //TRUE CONTROLLA SE HA LA LETTERA SPECIFICATA
         System.out.println(pippo.isEmpty()); //DA FALSE PERCHE' VERIFICA SE LA STRINGA PIPPO E' VUOTA
 
     }
