@@ -73,7 +73,7 @@ public class Esercizio5 {
         System.out.println("Questo è il preventivo finale: " + prezzoIniziale);
         myScanner.close();
         } else{
-            System.out.println("Sbagliato riprova");
+            System.out.println("Username o Password errati");
         }
 
         
