@@ -1,4 +1,4 @@
-public class ProvaCicli {
+public class ProvaIfElse {
     public static void main(String[] args) {
         int num1 = 20;
         int num2 = 15;

@@ -7,7 +7,7 @@ public class ProvaVariabili {
 
         int provaNumero = 12;   // Varie prove con le varibili
         String provaTesto = " Topolino";
-        Boolean provaBoolean = true;
+        
         
         System.out.println("Il suo nome è " + provaTesto);
         String fullPart = provaNumero + provaTesto; //Unire sia int + Sting

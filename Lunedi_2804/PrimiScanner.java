@@ -12,5 +12,7 @@ public class PrimiScanner {
         
         System.out.println("Username: " + userName + " Age: "+ userAge);
 
+        myObj.close();
+        myObj2.close();
     }
 }

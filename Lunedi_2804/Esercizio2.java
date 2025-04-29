@@ -28,7 +28,8 @@ public class Esercizio2 {
 
         boolean risultatoNOT = !(num1 == num2 && num2 == num3 && num3 == num4);
         System.out.println("I numeri sono tutti diversi? " + risultatoNOT);
-    
+        
+        myObj.close();
     }
 
 }

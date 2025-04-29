@@ -30,5 +30,6 @@ public class Esercizio1 {
         float myFloat = myObj.nextFloat();
         System.out.println("Dato:" + myFloat);
         
+        myObj.close();
     }
 }

@@ -17,6 +17,6 @@ public class Esercizio3 {
         } else{
             System.out.println("Riprova password e Username errati");
         }
-
+         myScanner.close();
     }
 }
