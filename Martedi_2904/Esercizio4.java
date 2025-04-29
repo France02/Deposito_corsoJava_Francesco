@@ -19,5 +19,6 @@ public class Esercizio4 {
        } else {
             System.out.println("Inserisci un numero valido!");
        }
+       myScanner.close();
     }
 }
