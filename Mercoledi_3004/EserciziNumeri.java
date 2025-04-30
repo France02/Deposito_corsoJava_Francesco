@@ -29,7 +29,7 @@ public class EserciziNumeri {
 
         System.out.println(Math.max(base, esponente)); //Trovo il maggior valore di alcune variabili scritte in precedenza
 
-        System.out.println((int)(Math.random() * 101) );
+        System.out.println((int)(Math.random() * 101));
 
     }
 }
