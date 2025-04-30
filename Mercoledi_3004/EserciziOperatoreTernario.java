@@ -29,5 +29,6 @@ public class EserciziOperatoreTernario {
         System.out.println(risultatoPositivo);
 
         
+
     }
 }
