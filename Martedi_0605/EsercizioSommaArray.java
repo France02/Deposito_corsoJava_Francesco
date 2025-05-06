@@ -9,6 +9,6 @@ public class EsercizioSommaArray {
         for(int i = 0; i < numeri.length; i++){
             somma += numeri[i];
         }
-        System.out.println("La somma è:" + somma);
+        System.out.println("La somma è: " + somma);
     }
 }
