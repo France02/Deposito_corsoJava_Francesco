@@ -13,5 +13,6 @@ public class MassimoNumeroArray {
         }
 
         System.out.println("il numero massimo è: " + massimo);
+        
     }
 }
