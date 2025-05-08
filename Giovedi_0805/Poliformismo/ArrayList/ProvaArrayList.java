@@ -1,7 +1,6 @@
 package Giovedi_0805.Poliformismo.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class ProvaArrayList {
 
@@ -14,8 +13,5 @@ public class ProvaArrayList {
 
         System.out.println("Lista originale: "  + numeri);
 
-        Collection.sort(numeri)
-
-        System.out.println(numeri);
     }
 }
