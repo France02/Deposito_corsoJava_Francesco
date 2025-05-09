@@ -1,4 +1,4 @@
-package Giovedi_0805.Poliformismo.ArrayList;
+package Giovedi_0805.ArrayList;
 
 import java.util.ArrayList;
 
