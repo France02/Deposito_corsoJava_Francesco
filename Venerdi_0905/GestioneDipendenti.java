@@ -34,7 +34,7 @@ public class GestioneDipendenti {
                     
                     dipendenti.add(new Dipendenti(nome, stipendio, dipartimento));
                     System.out.println("Dipendente aggiunto");
-                    break;
+                break;
                 case 2: 
                     if(dipendenti.isEmpty()){
                         System.out.println("Nessun dipendente registrato");
@@ -42,7 +42,7 @@ public class GestioneDipendenti {
                         System.out.println(dipendenti);
                     }
                     
-                    break;
+                break;
                 case 3:
                     System.out.println("Inserisci il numero del dipendente da modificare: ");
                     int indexDipendente = myScanner.nextInt() - 1;
@@ -73,7 +73,7 @@ public class GestioneDipendenti {
                         System.out.println("Input inserito non valido");
                     }
                     
-                    break;
+                break;
                 case 4:
                     System.out.println("Inserisci il numero del dipendente da rimuovere");
 
@@ -86,10 +86,8 @@ public class GestioneDipendenti {
                         System.out.println("Dipendente non trovato o Numero errato");
                     }
 
-                    break;
-                default:
-                    System.out.println("ERROREEEEE");
-                    break;
+                break;
+            
             }
         } while (scelta != 5);
 
