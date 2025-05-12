@@ -16,8 +16,8 @@ public class Dipendente {
         return stipendio;
     }
 
-    public double paga(int oreStraodinario){
-        return stipendio + oreStraodinario * straordinario;
+    public double paga(double oreStraordinario){
+        return stipendio + oreStraordinario * straordinario;
     }
 
     @Override
