@@ -14,12 +14,12 @@ public class DatabaseConnection {
 
             // Connessione al database
             Connection conn = DriverManager.getConnection(url, user, password);
-            System.out.println("✅ Connessione riuscita!");
+            System.out.println("Connessione riuscita!");
         } catch (ClassNotFoundException e) {
-            System.err.println("❌ Driver JDBC non trovato. Assicurati di aver aggiunto il JAR.");
+            System.err.println("Driver JDBC non trovato. Assicurati di aver aggiunto il JAR.");
             e.printStackTrace();
         } catch (SQLException e) {
-            System.err.println("❌ Errore nella connessione al database.");
+            System.err.println("Errore nella connessione al database.");
             e.printStackTrace();
         }
     }
