@@ -15,7 +15,7 @@ public class AutoreController {
         this.autoreRepository = autoreRepository;
     }
 
-    @PostMapping("api/autore")
+    @PostMapping("/api/autore")
     public Autore createAutore(@RequestBody Autore nuovoAutore){
             return autoreRepository.save(nuovoAutore);
     }
@@ -27,7 +27,7 @@ public class AutoreController {
     }
 
     @PutMapping("/api/autore/{id}")
-    public Autore updateAutore(@PathVariable long id, @RequestBody Autore autoreAggioranto){
+    public Autore updateAutore(@PathVariable Long id, @RequestBody Autore autoreAggioranto){
         return autoreRepository.findById(id)
             .map(autore -> {
                 autore.setNome(autoreAggioranto.getNome());
@@ -39,7 +39,7 @@ public class AutoreController {
     }
 
     @DeleteMapping("/api/autore/{id}")
-    public void deleteAutore(@PathVariable long id){
+    public void deleteAutore(@PathVariable Long id){
         if(!autoreRepository.existsById(id)){
             throw new RuntimeException("Autore non trovato con id: " + id);
         }

@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 public class Autore {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String nome;
     private String cognome;
 
@@ -14,18 +14,18 @@ public class Autore {
         
     }
 
-    public Autore(long id, String nome, String cognome){
+    public Autore(Long id, String nome, String cognome){
         this.id = id;
         this.nome = nome;
         this.cognome = cognome;
 
     }
 
-    public long getId(){
+    public Long getId(){
         return id;
     }
 
-    public void setId(long id){
+    public void setId(Long id){
         this.id = id;
     }
 
